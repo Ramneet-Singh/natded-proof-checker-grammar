@@ -6,6 +6,10 @@
 https://kumarmadhukar.github.io/courses/logic-diwali23/index.html
 )
 
+* [Description](#description)
+* [Proof File Syntax](#proof-file-syntax)
+* [Instructions for Students](#instructions-for-students)
+
 ## Description
 
 This file describes a grammar for a Fitch-style natural deduction proof, meant
