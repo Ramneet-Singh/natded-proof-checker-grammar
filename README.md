@@ -28,5 +28,19 @@ i, j, k, l, m, n denote line numbers in the proof file, as expected): [premise],
 The keywords are self-explanatory, and the precise interpretation of these rules
 can be found in Chapter 1 of the book by Huth and Ryan. Please also note that we
 will denote the logical symbols \\land and \\lor using backward and forward
-slashes, \\neg using the ! symbol, \\rightarrow using ->, and \\vdash using |-
-in the text file.
+slashes, \\neg using the ! symbol, \\rightarrow using ->, \\bot using \\bot and
+\\vdash using |- in the text file.
+
+## Instructions for Students
+
+The file is meant to be used with [lark](https://github.com/lark-parser/lark) to
+construct a standalone parser, which you can further use in your solution for 
+assignment 1. Remember that we will not install any modules (including `lark`), 
+so you *need* to create a  standalone parser *if* you choose to use this grammar
+. You may find the following tutorials helpful:
+
+- [Guide to the Standalone Tool](https://lark-parser.readthedocs.io/en/stable/ex
+amples/index.html#standalone-example)
+
+- [JSON Parser - Tutorial](https://lark-parser.readthedocs.io/en/stable/json_tut
+orial.html)
