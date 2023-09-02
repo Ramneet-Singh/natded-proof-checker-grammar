@@ -56,6 +56,7 @@ formula: APROP -> atomic_prop
         | "(" formula "\\/" formula ")" -> or_op
         | "(" formula "->" formula ")" -> implies_op
         | "("  "!" formula ")" -> not_op
+        | "\bot" -> bottom
 
 LCASE_LETTER: "a".."z"
 UCASE_LETTER: "A".."Z"
