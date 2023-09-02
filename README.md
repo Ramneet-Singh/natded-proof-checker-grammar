@@ -36,11 +36,9 @@ slashes, \\neg using the ! symbol, \\rightarrow using ->, \\bot using \\bot and
 The file is meant to be used with [lark](https://github.com/lark-parser/lark) to
 construct a standalone parser, which you can further use in your solution for 
 assignment 1. Remember that we will not install any modules (including `lark`), 
-so you *need* to create a  standalone parser *if* you choose to use this grammar
-. You may find the following tutorials helpful:
+so you *need* to create a  standalone parser *if* you choose to use this grammar.
+You may find the following tutorials helpful:
 
-- [Guide to the Standalone Tool](https://lark-parser.readthedocs.io/en/stable/ex
-amples/index.html#standalone-example)
+- [Guide to the Standalone Tool](https://lark-parser.readthedocs.io/en/stable/examples/index.html#standalone-example)
 
-- [JSON Parser - Tutorial](https://lark-parser.readthedocs.io/en/stable/json_tut
-orial.html)
+- [JSON Parser - Tutorial](https://lark-parser.readthedocs.io/en/stable/json_tutorial.html)
