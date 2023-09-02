@@ -1,4 +1,4 @@
-// File: AST Construction for Natural Deduction Proof Checker
+// File: Lark Grammar for Natural Deduction Proof Checker
 // Author: Ramneet Singh, IIT Delhi
 // Developed for COL703 (Logic for CS) at IIT Delhi, Sem I '23-24
 // ================
